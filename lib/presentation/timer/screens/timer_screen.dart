@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/timer/timer_bloc.dart';
-import '../bloc/timer/timer_event.dart';
-import '../bloc/timer/timer_state.dart';
-import '../data/colors.dart';
-import '../data/helper_functions.dart';
-import '../services/sound_service.dart';
+import '../logic/timer_bloc.dart';
+import '../logic/timer_event.dart';
+import '../logic/timer_state.dart';
+import '../../../core/data/colors.dart';
+import '../../../core/data/helper_functions.dart';
+import '../../../core/services/sound_service.dart';
 
 class TimerScreen extends StatelessWidget {
   const TimerScreen({Key? key}) : super(key: key);

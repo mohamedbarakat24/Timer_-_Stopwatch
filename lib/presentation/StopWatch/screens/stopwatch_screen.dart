@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/stopwatch/stopwatch_bloc.dart';
-import '../bloc/stopwatch/stopwatch_event.dart';
-import '../bloc/stopwatch/stopwatch_state.dart';
-import '../data/colors.dart';
-import '../data/helper_functions.dart';
+import '../logic/stopwatch_bloc.dart';
+import '../logic/stopwatch_event.dart';
+import '../logic/stopwatch_state.dart';
+import '../../../core/data/colors.dart';
+import '../../../core/data/helper_functions.dart';
 
 class StopwatchScreen extends StatelessWidget {
   const StopwatchScreen({Key? key}) : super(key: key);

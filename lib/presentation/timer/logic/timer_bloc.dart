@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'timer_event.dart';
 import 'timer_state.dart';
-import '../../services/sound_service.dart';
+import '../../../core/services/sound_service.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   Timer? _timer;

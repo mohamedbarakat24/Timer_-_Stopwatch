@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'bloc/timer/timer_bloc.dart';
-import 'bloc/stopwatch/stopwatch_bloc.dart';
-import 'screens/timer_screen.dart';
-import 'screens/stopwatch_screen.dart';
-import 'data/colors.dart';
-import 'data/helper_functions.dart';
+import 'presentation/timer/logic/timer_bloc.dart';
+import 'presentation/StopWatch/logic/stopwatch_bloc.dart';
+import 'presentation/timer/screens/timer_screen.dart';
+import 'presentation/StopWatch/screens/stopwatch_screen.dart';
+import 'core/data/colors.dart';
+import 'core/data/helper_functions.dart';
 
 void main() {
   runApp(const MyApp());
